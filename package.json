@@ -1,0 +1,24 @@
+{
+  "name": "codedrafts",
+  "version": "1.0.0",
+  "description": "CLI for uploading and downloading code snippets from CodeDrafts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "https://github.com/subeeshb",
+  "license": "ISC",
+  "bin": {
+    "drafts": "index.js",
+    "codedrafts": "index.js"
+  },
+  "dependencies": {
+    "argparse": "^1.0.9",
+    "openurl": "^1.1.1",
+    "request": "^2.79.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/subeeshb/codedrafts_cli"
+  }
+}
