@@ -25,12 +25,6 @@ parser.addArgument(
   }
 );
 parser.addArgument(
-  [ '-n', '--name' ],
-  {
-    help: 'File name or title to show on the uploaded page',
-  }
-);
-parser.addArgument(
   [ '-u', '--username' ],
   {
     help: 'Username to identify yourself',
